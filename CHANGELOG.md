@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+### Changed
+* **ci:** `actions/checkout@v7`, `actions/cache@v6`, and `codecov/codecov-action@v7`. The coverage job uploads kcov, unreachable, and macro coverage reports to Codecov, and uploads JUnit test results to Codecov Test Analytics. The 100% line coverage check on `src/` stays.
+
 ## 0.1.0 - 2026-09-23
 
 ### Added
